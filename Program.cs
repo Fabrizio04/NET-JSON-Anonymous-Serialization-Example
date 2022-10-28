@@ -18,7 +18,7 @@ var myObj2 = new {
 };
 
 string output = JsonConvert.SerializeObject(myObj);
-string output2 = JsonConvert.SerializeObject(myObj2,Formatting.Indented);//Use Formatting.Indented to Pretty Print
+string output2 = JsonConvert.SerializeObject(myObj2,Formatting.Indented);// Use Formatting.Indented to Pretty Print
 
 Console.WriteLine(output);
 Console.WriteLine("");
